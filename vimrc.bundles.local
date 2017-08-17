@@ -1,2 +1,3 @@
 Plugin 'easymotion/vim-easymotion'
 Plugin 'kovisoft/slimv'
+Plugin 'luochen1990/rainbow'
