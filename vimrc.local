@@ -19,7 +19,10 @@ if (&t_Co == 256 || has('gui_running'))
   set background=dark
   set t_Co=256          " 256 color mode
   set cursorline        " highlight current line
-  colors moria
+
+" Enable bold. Default: 1
+" let g:kolor_bold=0
+  colors kolor
 
   "powerline
   " python3 from powerline.vim import setup as powerline_setup
