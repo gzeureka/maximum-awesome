@@ -59,3 +59,6 @@ map <C-t><C-w> :tabclose<CR>
 
 " rainbow
 let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
+
+" clipboard sharing
+set clipboard=unnamed
