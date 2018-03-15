@@ -14,7 +14,8 @@ if (&t_Co == 256 || has('gui_running'))
   " else
   "   colorscheme desert
   " endif
-  set guifont=YaHei\ Consolas\ Hybrid:h14
+  " set guifont=YaHei\ Consolas\ Hybrid:h14
+  set guifont=Fira\ Code:h13
   set linespace=2
   set background=dark
   set t_Co=256          " 256 color mode
@@ -28,6 +29,10 @@ if (&t_Co == 256 || has('gui_running'))
   " python3 from powerline.vim import setup as powerline_setup
   " python3 powerline_setup()
   " python3 del powerline_setup
+endif
+
+if (has('gui_running'))
+  set macligatures
 endif
 
 " Disambiguate ,a & ,t from the Align plugin, making them fast again.
